@@ -1,15 +1,14 @@
-import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import RouterIndex from "./routes/RouterIndex";
+import '@/App.css';
+import { BrowserRouter } from 'react-router-dom';
+import Index from '@/routes';
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
-      <RouterIndex />
+        <Index />
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
 export default App;
-
